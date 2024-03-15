@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card with Tilt Effect</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="top">
+        <h2>
+          Signature <br />
+          Sport Shoe
+        </h2>
+      </div>
+      <img src="shoe.png" alt="" />
+
+      <div class="content">
+        <div class="details">
+          <h5>Product Details</h5>
+          <small>Color: Black</small>
+          <small>Material: Cotton Canvas</small>
+          <small>Heel Type: Flat</small>
+        </div>
+
+        <div class="sizes">
+          <h5>Select Size</h5>
+          <ul>
+            <li class="size">7</li>
+            <li class="size">8</li>
+            <li class="size">9</li>
+            <li class="size">10</li>
+          </ul>
+        </div>
+
+        <button class="btn">
+          <span>Add to Cart</span>
+          <span>&#x20B9;2192</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Vanilla Tilt JS-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
